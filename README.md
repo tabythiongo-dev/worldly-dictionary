@@ -21,7 +21,7 @@ A Single Page Application that looks up word definitions, examples, synonyms, an
 3. Click "Search"
 
 ##  Live Demo
-https://tabythiongo-cyber.github.io/worldly-dictionary/
+https://tabythiongo-dev/worldly-dictionary/
 
 ##  Author
 tabythiongo-cyber
