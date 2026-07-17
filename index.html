@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wordly - Dictionary SPA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📚 Wordly</h1>
+    <p>Your simple dictionary. Search any English word.</p>
+  </header>
+
+  <main>
+    <!-- Search Form -->
+    <form id="searchForm" aria-label="Search for a word">
+      <input 
+        type="text" 
+        id="wordInput" 
+        placeholder="Enter a word..." 
+        aria-label="Word input"
+        autocomplete="off"
+      >
+      <button type="submit" id="searchBtn">Search</button>
+    </form>
+
+    <!-- Results Section -->
+    <section id="results" aria-live="polite">
+      <p class="placeholder">Type a word above to see the definition, pronunciation, and synonyms.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Data provided by <a href="https://dictionaryapi.dev" target="_blank">Free Dictionary API</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
