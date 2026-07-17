@@ -24,4 +24,4 @@ A Single Page Application that looks up word definitions, examples, synonyms, an
 https://tabythiongo-dev.github.io/worldly-dictionary/
 
 ##  Author
-tabythiongo-cyber
+tabythiongo-dev
